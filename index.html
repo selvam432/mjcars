@@ -567,7 +567,7 @@
         whatsappNumber: '7339167220',   // Your WhatsApp number
         instagramUrl: 'https://www.instagram.com/mj_miniaturess?igsh=MTAwbWc1cWlldGFlaw==',
         phone: '+91 73391 67220',
-        email: 'mjminatures@gmail.coom.com'
+        email: 'mjminatures@gmail.com'
       };
 
       // ============================================================
@@ -841,7 +841,6 @@
             <div style="display:flex; flex-direction:column; gap:20px; margin-top:30px; font-size:1.1rem;">
               <p><i class="fab fa-whatsapp" style="color:#25D366; width:30px;"></i> <a href="https://wa.me/${CONFIG.whatsappNumber}" target="_blank">WhatsApp</a></p>
               <p><i class="fab fa-instagram" style="color:#E1306C; width:30px;"></i> <a href="${CONFIG.instagramUrl}" target="_blank">Instagram</a></p>
-              <p><i class="fab fa-youtube" style="color:#FF0000; width:30px;"></i> <a href="${CONFIG.youtubeUrl}" target="_blank">YouTube</a></p>
               <p><i class="fas fa-phone" style="color:#aaa; width:30px;"></i> ${CONFIG.phone}</p>
               <p><i class="fas fa-envelope" style="color:#aaa; width:30px;"></i> ${CONFIG.email}</p>
             </div>
@@ -986,7 +985,6 @@
       });
 
       document.getElementById('instagramLink').href = CONFIG.instagramUrl;
-      document.getElementById('youtubeLink').href = CONFIG.youtubeUrl;
       document.getElementById('whatsappFooterLink').href = `https://wa.me/${CONFIG.whatsappNumber}`;
 
       navigateTo('home');
